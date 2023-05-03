@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+}
+section div{
+	color: black;
+	width: 90%;
+	height: 175px;
+	background-color:yellow ;
+	border: 1px solid black;
+	margin: auto ;
+	margin-bottom: 10%;
+
+	
+
+}
+p{  width: 90%;
+	margin: auto;
+}
+h4{
+	text-align: right;
+	margin-right: 7%;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px){
+	#col-md-6{
+		float: left;
+		width: 50%;
+	}
+	#col-sm{
+		float: left;
+		width:100%;
+	}
+}
+
