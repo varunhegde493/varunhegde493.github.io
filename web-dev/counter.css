@@ -6,6 +6,8 @@ body{
 }
 h1,h2{
     font-size: 5em;
+    margin-bottom: 0.35em;
+    margin-top: 0.35em;
 }
 button{
 	color: yellowgreen;
@@ -13,6 +15,7 @@ button{
 	font-size: 2.5em;
 	border-radius: 9px;
 	transition-duration: 0.4s;
+	margin-bottom: 13.5px;
 }
 button:hover{
 	background-color: brown;
@@ -24,4 +27,8 @@ button:active{
 	background-color: brown;
 	color: yellowgreen;
 	transform: translateY(10px);
+}
+#save-el{
+	margin-top: 25px;
+	font-size: 50px;
 }

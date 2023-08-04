@@ -5,11 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>counter</title>
 	<link rel="stylesheet" type="text/css" href="counter.css">
-	<script type="text/javascript" src="counter.js"></script>
+	
 </head>
 <body>
     <h1>People Counter</h1>
     <h2 id="count-el">0</h2>
-    <button id="increment" onclick="increment()">INCREMENT</button>
+    <button id="increment" onclick="increment()">INCREMENT</button><br>
+    <button id="save" onclick="save()">SAVE</button><br>
+    <button id="reset" onclick="reset()">RESET</button>
+    <p id="save-el">Previous entries: </p>
+    <script type="text/javascript" src="counter.js"></script>   
 </body>
 </html>
