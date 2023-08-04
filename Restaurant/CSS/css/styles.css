@@ -1,0 +1,48 @@
+body{
+	font-size: 16px;
+	color: white;
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url("F:/varunhegde493.github.io/Restaurant/restaurant-logo-favicon.png");
+	width: 163px;
+	height: 157px;
+	margin: 10px 15px 10px 0;
+}
+.pull-left{
+	float: left;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora',serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a{
+	text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
