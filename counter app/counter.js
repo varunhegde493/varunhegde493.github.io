@@ -14,4 +14,3 @@ function reset() {
     count = 0
 	document.getElementById("count-el").innerText = count
 }
-//asqsasas
